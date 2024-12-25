@@ -48,6 +48,7 @@ The maximum possible groupings of adjacent ones are already shown in the figure.
 5. For different input combinations generate the timing diagram.
 
 **PROGRAM**
+```
 module exp6(q, qbar, s, r, clk);
 
 input s,r,clk; 
@@ -68,7 +69,7 @@ nand(qbar,nand2_out,q);
 
 endmodule
 
-
+```
 **RTL LOGIC FOR FLIPFLOPS**
 ![Screenshot (99)](https://github.com/user-attachments/assets/36e68497-aa6f-47d4-8722-636c43bb552e)
 
